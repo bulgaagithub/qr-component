@@ -13,15 +13,21 @@ body {
 
 .white-box {
   background: #fff;
-  width: 320px;
   padding: 1.5rem;
   border-radius: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .qr-img {
   border-radius: 1rem;
-  width: 100%;
+  width: 288px;
+  height: 288px;
+}
+
+.text-box {
+  max-width: 288px;
 }
 
 .outfit-700 {
@@ -42,7 +48,7 @@ body {
   font-style: normal;
   transition: all;
   color: hsl(220, 15%, 55%);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 600px) {
